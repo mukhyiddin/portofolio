@@ -1,5 +1,5 @@
 export <template>
-<div href="google.com" class="card mycard w-96 bg-gray-700">
+<div href="google.com" class="card mycard mb-4 w-96 bg-gray-700">
   <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
   <div class="card-body">
     <h2 class="card-title">Life hack</h2>
@@ -13,10 +13,10 @@ export <template>
 
 <style>
 .mycard{
-    transition: transform 0.7s;
+    transition: transform 0.3s;
 }
 
 .mycard:hover{
-    transform: scale(1.08);
+    transform: scale(1.04);
 }
 </style>

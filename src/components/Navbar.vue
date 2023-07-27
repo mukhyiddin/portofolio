@@ -2,7 +2,7 @@ export <template>
 <div class="navbar active fixed w-full bg-purple-600 z-20 font-bold bg-opacity-40 backdrop-blur-sm"
 :class="{'navbar bg-opacity-40 bg-purple-600 font-bold fixed full z-20' : !showBackground}">
   <div class="flex-1">
-    <a href="#ahay" class="normal-case text-xl ml-2">Yudi</a>
+    <a href="#ahay" class="normal-case text-xl ml-2">Resume</a>
   </div>
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
@@ -19,6 +19,7 @@ export <template>
 export default {
  
 }
+
 // setup(){
 //     showBackground : ref(false)
 
