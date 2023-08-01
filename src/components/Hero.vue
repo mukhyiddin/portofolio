@@ -5,7 +5,7 @@ export <template>
     <div class="max-w-xl">
       <h1 class="mb-5 text-5xl font-bold text-lime-300">Welcome To My Website</h1>
       <p class="mb-5 text-1xl font-bold text-lime-300">let's get to know me closer</p>
-      <a href="#aboutme"><button href="#aboutme" class="btn text-bold"><span>Get In Touch</span></button></a>
+      <a href="#aboutme"><button href="#aboutme" class="btnhov rounded-xl text-bold"><span>Get In Touch</span></button></a>
     </div>
   </div>
 </div>
@@ -32,7 +32,7 @@ body {
   font-size: 35px;
 }
 
-.btn {
+.btnhov {
   border: none;
   text-align: center;
   cursor: pointer;
@@ -49,12 +49,12 @@ body {
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
 }
 
-.btn span {
+.btnhov span {
   position: relative; 
   z-index: 1;
 }
 
-.btn:after {
+.btnhov:after {
   content: "";
   position: absolute;
   left: 0;
@@ -68,7 +68,7 @@ body {
   transform: translateX(-98%) translateY(-25%) rotate(45deg);
 }
 
-.btn:hover:after {
+.btnhov:hover:after {
   -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
   transform: translateX(-9%) translateY(-25%) rotate(45deg);
 }
