@@ -1,9 +1,9 @@
 {
   "name": "porto-vue",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
-  "homepage": "https://mukhyiddin.github.io/portofolio",
+  "homepage": "https://mukhyiddin.github.io/portofolio/",
   "scripts": {
     "dev": "vite",
     "preview": "vite preview",
