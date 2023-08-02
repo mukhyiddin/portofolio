@@ -5,7 +5,7 @@ import Navbar from './components/Navbar.vue';
 import Heart from './components/Heart.vue'
 import Footers from './components/Footer.vue'
 import Education from './components/Education.vue'
-import Skill from './components/Skill.vue'
+// import Skill from './components/Skill.vue'
 import Portofolio from './components/Portofolio.vue';
 </script>
 
