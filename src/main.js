@@ -15,11 +15,11 @@ const routes = [
     component: Page,
   },
   {
-    path: '/error',
+    path: '/portofolio/error',
     component: Error,
   },
   {
-    path: '/:catchAll(.*)',
+    path: '/portofolio/:catchAll(.*)',
     component: Error,
   },
 ];
