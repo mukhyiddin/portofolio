@@ -1,23 +1,32 @@
 import './style.css'
 import { createApp } from 'vue';
 import App from './App.vue';
-import Err from './err.vue';
-// import router from './index'; // Impor router yang telah Anda buat
+import Page from './Page.vue';
+import Error from './Error.vue';
+import { createRouter, createWebHistory } from 'vue-router';
 
-import { createRouter, createWebHistory } from 'vue-router'; // Impor dari vue-router langsung
+const routes = [
+  {
+    path: '/',
+    redirect: '/portofolio',
+  },
+  {
+    path: '/portofolio',
+    component: Page,
+  },
+  {
+    path: '/error',
+    component: Error,
+  },
+  {
+    path: '/:catchAll(.*)',
+    component: Error,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes: [
-    {
-      path: '/portofolio',
-      component: App // Gunakan dynamic import untuk komponen App.vue
-    },
-    {
-      path: '/err', // Path untuk NotFound, menangkap seluruh path yang tidak cocok dengan rute-rute lainnya
-      component: Err, // Gunakan dynamic import untuk komponen App.vue
-    },
-  ],
+  routes,
 });
 
 createApp(App).use(router).mount('#app');
