@@ -14,7 +14,3 @@
 <router-view></router-view>
 </div>
 </template>
-
-<script>
-import { RouterLink } from 'vue-router';
-</script>
