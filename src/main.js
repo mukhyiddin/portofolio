@@ -8,10 +8,10 @@ import { createRouter, createWebHistory } from 'vue-router';
 const routes = [
   {
     path: '/',
-    redirect: '/portofolio',
+    redirect: '/portofolio/',
   },
   {
-    path: '/portofolio',
+    path: '/portofolio/',
     component: Page,
   },
   {
