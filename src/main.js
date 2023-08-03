@@ -27,6 +27,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  base: '/portofolio/'
 });
 
 createApp(App).use(router).mount('#app');
