@@ -14,7 +14,6 @@ export <template>
             <CardsPorto/>
             <CardsPorto/>
             <CardsPorto/>
-            <CardsPorto/>
         </div>
     </div>
     
