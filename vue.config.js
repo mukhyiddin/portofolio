@@ -1,9 +1,7 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const path = require('path');
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-  ? '/portofolio/'
-  : '/',
   outputDir: 'dist',
   pages: {
     index: {
@@ -19,8 +17,8 @@ module.exports = {
       new CopyWebpackPlugin({
         patterns: [
           {
-            from: 'public/404.html',
-            to: '404.html',
+            from: path.resolve(__dirname, 'src/404.html'),
+            to: path.resolve(__dirname, 'dist/404.html'),
           },
         ],
       }),
