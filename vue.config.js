@@ -5,7 +5,7 @@ module.exports = {
   pages: {
     index: {
       entry: 'src/main.js',
-      template: 'public/index.html',
+      template: 'index.html',
       filename: 'index.html',
     },
     // Add your other pages here if you have multiple pages
