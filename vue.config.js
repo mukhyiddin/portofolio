@@ -1,5 +1,4 @@
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const path = require('path');
 
 module.exports = {
   outputDir: 'dist',
@@ -17,8 +16,8 @@ module.exports = {
       new CopyWebpackPlugin({
         patterns: [
           {
-            from: path.resolve(__dirname, 'src/404.html'),
-            to: path.resolve(__dirname, 'dist/404.html'),
+            from: '404.html',
+            to: '404.html',
           },
         ],
       }),
