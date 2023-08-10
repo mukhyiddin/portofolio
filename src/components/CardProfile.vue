@@ -18,7 +18,7 @@ export <template>
                       <div class="stat-figure text-secondary">
                           <div class="avatar">
                               <div class="w-32 ml-10 rounded-full ring ring-secondry ring-offset-base-100 ring-offset-2">
-                                  <img src="https://media.licdn.com/dms/image/C5603AQGsEfvjv5Dd-Q/profile-displayphoto-shrink_800_800/0/1651118052368?e=1677110400&v=beta&t=2h_66xJr0YkIkz1y7v4HROX5PkV_BDUagBHsZRG0st8" alt="profile" />
+                                  <img class="profile" :src="profile" />
                               </div>
                           </div>
                       </div>
@@ -32,12 +32,23 @@ export <template>
           </div>
   </template>
   
-  <script>
-  export default {
-  
-  }
+  <script setup>
+  import profile from '../assets/profile.jpg'
+
   </script>
   
   <style>
-  
+    .profile {
+        height:200px;
+        width:200px;
+        position: relative;
+    }
+
+    .profile {
+    transition: transform 0.5s ease;
+    }
+
+    .profile:hover {
+    transform: scale(1.6);
+    }
   </style>
