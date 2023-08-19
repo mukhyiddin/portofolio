@@ -3,8 +3,8 @@ export <template>
         <div className="hero-overlay bg-opacity-50  backdrop-blur-sm"></div>
         <div class="hero-content  text-center text-neutral-content">
     <div class="max-w-xl">
-      <h1 class="mb-5 text-5xl font-bold text-lime-300">Welcome To My Website</h1>
-      <p class="mb-5 text-1xl font-bold text-lime-300">let's get to know me closer</p>
+      <h1 class="mb-5 text-5xl font-bold text-lime-300 max-lg:text-4xl">Welcome To My Website</h1>
+      <p class="mb-5 text-1xl font-bold text-lime-300 max-lg:text-xl">let's get to know me closer</p>
       <a href="#aboutme"><button href="#aboutme" class="btnhov rounded-xl text-bold"><span>Get In Touch</span></button></a>
     </div>
   </div>
@@ -82,4 +82,43 @@ body {
   color: white;
   font-size: 25px; 
 }
+@media (max-width: 768px) {
+  .description {
+    font-size: 20px;
+  }
+
+  .btnhov {
+    font-size: 12px;
+    padding: 8px 28px;
+  }
+
+  .link {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .link a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .description {
+    font-size: 20px;
+  }
+
+  .btnhov {
+    font-size: 12px;
+    padding: 8px 30px;
+  }
+
+  .link {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .link a {
+    font-size: 20px;
+  }
+} 
 </style>

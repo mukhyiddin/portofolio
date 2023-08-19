@@ -10,7 +10,7 @@ export <template>
     <div>
         <div id="skill" className="underline underline-offset-8 text-center text-2xl text-black font-bold mb-5 mt-10"></div>
         <div className="flex justify-center mb-10">
-            <kbd class="kbd text-black font-bold text-xl border-black bg-blue-300">PORTOFOLIO</kbd>
+            <kbd class="kbd text-black font-bold text-xl max-md:text-lg border-black bg-blue-300">PORTOFOLIO</kbd>
         </div>
         <div class="grid lg:grid-cols-3 md:grid-cols-2 justify-items-center">
             <CardsPorto :imgurl="weDream" LinkTo="https://mukhyiddin.github.io/Wedding-Dreaming-Mataram/" title="Wedding Dream Mataram" desc="I developed this website using HTML, JS, and CSS."/>

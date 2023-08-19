@@ -1,11 +1,10 @@
 export <template>    
-<div class="navbar active fixed w-full bg-purple-600 z-20 font-bold bg-opacity-40 backdrop-blur-sm"
-:class="{'navbar bg-opacity-40 bg-purple-600 font-bold fixed full z-20' : !showBackground}">
+<div class="navbar active fixed bg-purple-600 z-20 font-bold bg-opacity-40 backdrop-blur-sm">
   <div class="flex-1">
-    <a href="#ahay" class="normal-case text-xl ml-2">Resume</a>
+    <a href="#ahay" class="normal-case text-xl ml-2 max-lg:text-xs">Resume</a>
   </div>
   <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
+    <ul class="menu menu-horizontal px-1 max-lg:text-xs">
                     <li><a href="#aboutme">About Me</a></li>
                     <li><a href="#education">Education</a></li>
                     <li><a href="#skill">Skill</a></li>

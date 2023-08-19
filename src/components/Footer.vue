@@ -1,6 +1,6 @@
 export <template>
     <div>
-        <footer className="footer p-10 bg-neutral text-neutral-content">
+        <footer className="footer p-10 mt-14 bg-neutral text-neutral-content">
             <div className="pt-10">
                 <p>© Coppyright © 2022 - Mukhyiddin. All Rights Reserved.</p>
             </div>

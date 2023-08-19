@@ -10,7 +10,7 @@ export <template>
   <div id="education">
             <div className="pt-12">
                 <div class="flex justify-center gap-1 my-1 w-full">
-                    <kbd class="kbd text-black font-bold text-xl border-black bg-blue-300">EDUCATION</kbd>
+                    <kbd class="kbd text-black font-bold text-xl max-md:text-lg border-black bg-blue-300">EDUCATION</kbd>
                 </div> 
                     <div className="text-primary-content peer-checked:text-black">
                         <div className="mt-10 pb-10">
