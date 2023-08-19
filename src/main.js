@@ -1,25 +1,21 @@
 import './style.css'
 import { createApp } from 'vue';
 import App from './App.vue';
-import Page from './Page.vue';
+import Page from './views/Page.vue'
 import Error from './Error.vue';
 import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
   {
     path: '/',
-    redirect: '/portofolio/',
+    redirect: '/resume/',
   },
   {
-    path: '/portofolio/',
+    path: '/resume/',
     component: Page,
   },
   {
-    path: '/portofolio/error',
-    component: Error,
-  },
-  {
-    path: '/portofolio/:catchAll(.*)',
+    path: '/resume/:catchAll(.*)',
     component: Error,
   },
 ];
@@ -27,7 +23,7 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
-  base: '/portofolio/'
+  base: '/resume/'
 });
 
 createApp(App).use(router).mount('#app');
