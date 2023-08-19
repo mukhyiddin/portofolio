@@ -4,6 +4,7 @@ import App from './App.vue';
 import Page from './views/Page.vue'
 import Error from './Error.vue';
 import { createRouter, createWebHistory } from 'vue-router';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const routes = [
   {
