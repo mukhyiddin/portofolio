@@ -1,8 +1,7 @@
 export <template>
-    <div id="aboutme" class="pt-12 pl-2 pr-2 max-lg:pl-10 max-lg:pr-10">
-              <!-- <div class="stats border shadow bg-green-9 mt-10 mb-10 pl-10 pr-10 pt-5 pb-5"> -->
-                <div class="stats border shadow bg-green-9 mt-10 mb-10 pl-10 pr-10 pt-5 pb-5">
-                  <div class="stat">
+    <div id="aboutme" class="pt-12 pl-2 pr-2 max-lg:pl-10 max-lg:pr-10 max-sm:mb-10">
+                <div class="stats border shadow bg-green-9 mt-10 mb-10 pl-10 pr-10 pt-5 pb-5 ">
+                  <div class="stat max-sm:mr-16">
                       <div class="stat-figure text-lime-400">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
                       </div>

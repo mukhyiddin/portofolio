@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <Hero />
-    <div class="flex justify-center max-sm:max-w-0">
+    <div class="flex justify-center max-sm:flex max-sm:justify-center max-sm:scale-50 max-sm:-mt-32 max-sm:-mb-32">
       <CardProfile />
     </div>
     <Heart />
