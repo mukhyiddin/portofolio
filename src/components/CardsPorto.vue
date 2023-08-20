@@ -4,9 +4,6 @@ export <template>
   <div class="card-body">
     <h2 class="card-title max-lg:text-lg max-md:text-sm">{{ title }}</h2>
     <p class="max-lg:text-sm max-md:text-xs">{{desc}}</p>
-    <!-- <iframe src="https://mukhyiddin.github.io/Wedding-Dreaming-Mataram/screenshot.png" width="600" height="400" frameborder="0"></iframe> -->
-    <!-- <img src="https://mukhyiddin.github.io/Wedding-Dreaming-Mataram" alt="Website Preview" width="800" height="600"> -->
-
     <div class="card-actions justify-center">
       <a :href="LinkTo" target="_blank">
         <button class="btn btn-l max-lg:btn-sm max-md:btn-xs btn-primary">(    
